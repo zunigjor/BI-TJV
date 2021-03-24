@@ -1,0 +1,119 @@
+POST http://localhost:8080/owner
+Content-Type: application/json
+
+{
+  "name" : "Jorge",
+  "surname" : "Zuniga",
+  "email" : "jorge@zuniga.cz",
+  "phoneNumber" : "123456789"
+}
+
+###
+
+POST http://localhost:8080/owner
+Content-Type: application/json
+
+{
+  "name" : "Franta",
+  "surname" : "Vomacka",
+  "email" : "franta.vomacka@email.cz",
+  "phoneNumber" : "987654321"
+}
+
+###
+
+GET http://localhost:8080/owner?page=0&size=10
+
+###
+
+GET http://localhost:8080/owner/9
+
+###
+
+DELETE http://localhost:8080/owner/26
+
+###
+
+PUT http://localhost:8080/owner/26
+Content-Type: application/json
+
+{
+  "name" : "Pepicek",
+  "surname" : "Zuniga",
+  "email" : "jorge@zuniga.cz",
+  "phoneNumber" : "123456789",
+  "carIds" : [
+  "10"
+  ]
+}
+
+###
+
+POST http://localhost:8080/car
+Content-Type: application/json
+
+{
+  "registrationNumber" : "5A0 1234",
+  "brand" : "Skoda",
+  "model" : "Octavia"
+}
+
+###
+
+POST http://localhost:8080/car
+Content-Type: application/json
+
+{
+  "registrationNumber" : "456 C123",
+  "brand" : "BMW",
+  "model" : "i7"
+}
+
+###
+
+GET http://localhost:8080/car
+
+###
+
+GET http://localhost:8080/car/31
+
+###
+
+DELETE http://localhost:8080/car/16
+
+###
+
+PUT http://localhost:8080/car/31
+Content-Type: application/json
+
+{
+  "registrationNumber" : "987 6543",
+  "brand" : "AUDI",
+  "model" : "i7"
+}
+
+###
+
+POST http://localhost:8080/car/27/add?ownerId=26
+
+###
+
+POST http://localhost:8080/car/27/remove?ownerId=26
+
+###
+
+GET http://localhost:8080/parkingspot
+
+###
+
+POST http://localhost:8080/parkingspot
+Content-Type: application/json
+
+{
+  "parkingSpotNumber" : "1",
+  "carId" : "31"
+}
+
+###
+
+
