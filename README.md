@@ -34,4 +34,4 @@ http://localhost:8080/parkingspot
 http://localhost:8080/tires
 
 
-Další příklady se nachází v souboru [example_requests.http](https://gitlab.fit.cvut.cz/zunigjor/tjv_semestralka_parkoviste/blob/924efc20f1ec34296375a41a3aa659fa5970403c/example_requests.http)
+Další příklady se nachází v souboru [example_requests.http](https://github.com/zunigjor/BI-TJV/blob/4e0e5cf5e91dd5c91249382933352ee1481f5d4b/example_requests.http)
