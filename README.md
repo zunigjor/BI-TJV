@@ -1,3 +1,5 @@
+# BI-TJV Java Technology
+
 **Požadavky:**  
 *  MySQL 5.6 nebo novější  
 *  JDK 1.8 nebo novější  
