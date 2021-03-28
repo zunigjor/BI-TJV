@@ -1,5 +1,7 @@
 # BI-TJV Java Technology
 
+### Java Spring backend for a smart parking garage  
+
 **Požadavky:**  
 *  MySQL 5.6 nebo novější  
 *  JDK 1.8 nebo novější  
